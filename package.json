@@ -8,18 +8,23 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@types/react": "~18.0.27",
     "expo": "~48.0.15",
     "expo-splash-screen": "~0.18.2",
     "expo-status-bar": "~1.4.4",
+    "fbemitter": "^3.0.0",
     "react": "18.2.0",
     "react-native": "0.71.7",
     "react-native-mmkv": "^2.8.0",
     "react-native-quick-base64": "^2.0.6",
     "react-native-quick-crypto": "^0.6.1",
+    "typescript": "^4.9.4",
     "yjs": "^13.6.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "@types/debug": "^4.1.7",
+    "@types/fbemitter": "^2.0.32",
     "babel-plugin-module-resolver": "^5.0.0"
   },
   "private": true
